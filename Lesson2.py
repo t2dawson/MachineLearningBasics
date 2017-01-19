@@ -1,6 +1,6 @@
-from skylearn.datasets import load_iris
+from sklearn.datasets import load_iris
 import numpy as np
-from skylearn import tree
+from sklearn import tree
 
 iris = load_iris()
 print(iris.feature_names)
