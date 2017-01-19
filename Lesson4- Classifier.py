@@ -26,7 +26,7 @@ class BareClassifier():
 		closest_idx = 0
 		
 		for x in range(1,len(self.X_train)):
-			dist = euc_distance(row, self.X_train[x]
+			dist = euc_distance(row, self.X_train[x])
 			if dist < closest_dist:
 				closest_dist = dist
 				closest_idx = x
